@@ -1,0 +1,80 @@
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 300px) {
+    
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+    .login-page{
+        .form-login{
+            padding: 10px;
+        }
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+    .my-nav{
+        .nav-menu{
+            position: fixed;
+            left: 0;
+            top: 0;
+            width: 50vw;
+            height: 100vh;
+            background-color: #f86462;
+            .close-nav{
+                position: absolute;
+                top: 15px;
+                right: 10px;
+                cursor: pointer;
+                .fa{
+                    color: #fff;
+                    font-size: 30px;
+                }
+            }
+            .links{
+                ul{
+                    .row{
+                        height: 100vh;
+                    }
+                    position: relative;
+                    li.link{
+                        width: 100%;
+                        text-align: center;
+                        margin: 0;
+                        padding: 10px;
+                        transition: 0.5s;
+                        a{
+                            font-size: 24px;
+                        }
+                        &:hover{
+                            background-color: #fff;
+                            cursor: pointer;
+                            a{
+                                color: #000;
+                                letter-spacing:3px;
+                                transition: 0.5s;
+                                transform-origin: right;
+                            }
+                        }
+                        a{
+                            color: #fff;
+                            
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+}
